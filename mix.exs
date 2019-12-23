@@ -4,7 +4,7 @@ defmodule Samwise.Mixfile do
   def project do
     [app: :samwise,
      version: "0.2.0",
-     elixir: "~> 1.6.6",
+     elixir: "~> 1.9.3",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
